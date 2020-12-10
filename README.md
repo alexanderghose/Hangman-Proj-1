@@ -1,2 +1,3 @@
-# Hangman-Proj-1
-SEI-Hangman-Project-1
+# Project 1: Hangman 
+
+Here is the breakdown: 
