@@ -7,25 +7,26 @@
     <link href= "style.css" rel= "stylesheet" type="text/css">
 </head>
 <body>
+    <header>
     <h1>Let's Play Hangman!</h1>
     <h3>Rules of the Game:</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl nisi, vulputate in enim eget, ultricies luctus nisi. 
+            Hey There! <br>
+            Start the game by picking the category you want to play. Once the button is clicked, a word will be assigned to you and then you can start guessing! Good luck!!
         </p>
-
-<div class= "Game-Board">
-        <ul> Pick a Category: <br>
-            <button id= "btn1">Movies</button>
-            <button id= "btn2">Animals</button>
-            <button id= "btn3">Everyday Items</button>
-        </ul>
-
+    
+        <div class= "Game-Board">
+            <ul>Pick a Category:<br>
+                <button id= "btn1">Movies</button>
+                <button id= "btn2">Animals</button>
+                <button id= "btn3">Everyday Items</button>
+            </ul>
+    </header>
     <div id= "word">
         <span id="mySpan"></span>
     </div>
     
-    <div id="alfChoices" class= "fadeOut">
-        <ul> Pick a Letter: <br>
+        <ul class= "fadeOut"> Pick a Letter: <br>
             <button id= "ltrA">A</button>
             <button id= "ltrB">B</button>
             <button id= "ltrC">C</button>
@@ -54,11 +55,9 @@
             <button id= "ltrZ">Z</button>
             
         </ul>
-    </div>
-    
-    <button id= "resetBtn" class= "hidden">Try Again!</button>
-    
+    <button id= "footer" class= "hidden">Try Again!</button>
 </div>
+
     <script src= "script.js"></script>
 </body>
 </html>
