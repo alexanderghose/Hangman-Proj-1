@@ -11,12 +11,6 @@ let progress = "-".repeat(secretWord.length)
 let wrongGuess = 0;
 let rightGuess = 0;
 
-/* 
-let progress = "-".repeat(5) to put 5 blanks, or 
-let progress = "-".repeat(6) to put 6 blanks, or
-let progress = "-".repeat(secretWord.length) to put the correct blanks
-*/
-
 // when animal is clicked, the secret word should store the value from the string. 
 // update secretWord to hold new random variable. set one at a time, dont do random yet.
 
@@ -58,44 +52,7 @@ const animalBtn2 = document.getElementById("btn2");
 const everydayBtn3 = document.getElementById("btn3");
 
 /*----- event listeners -----*/
-
-// Basic Secret Word:
-/*ltrF.addEventListener("click", function(){
-    // 1. Find the indec for "f" in the secretWord
-    let pos = basicSecretWord.indexOf("F")
-    progress = progress.split('');
-    progress.splice(pos,1,"F");
-    progress = progress.join('');
-    mySpan.innerHTML = progress
-})
-
-ltrI.addEventListener("click", function(){
-    // 1. Find the indec for "I" in the secretWord
-    let pos = basicSecretWord.indexOf("I")
-    progress = progress.split('');
-    progress.splice(pos,1,"I");
-    progress = progress.join('');
-    mySpan.innerHTML = progress
-})
-
-ltrR.addEventListener("click", function(){
-    // 1. Find the indec for "R" in the secretWord
-    let pos = basicSecretWord.indexOf("R")
-    progress = progress.split('');
-    progress.splice(pos,1,"R");
-    progress = progress.join('');
-    mySpan.innerHTML = progress
-})
-
-ltrE.addEventListener("click", function(){
-    // 1. Find the indec for "E" in the secretWord
-    let pos = basicSecretWord.indexOf("E")
-    progress = progress.split('');
-    progress.splice(pos,1,"E");
-    progress = progress.join('');
-    mySpan.innerHTML = progress
-})*/
-
+ 
 // MOVIE CATEGORY CODE:
 
 movieBtn1.addEventListener("click", function (){
