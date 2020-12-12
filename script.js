@@ -10,6 +10,7 @@ let secretWord = ""
 let progress = "-".repeat(secretWord.length)
 let wrongGuess = 0;
 let rightGuess = 0;
+let winningConditions = ["SALT", "VENOM", "ELF", "BISON", "LION", "CAR", "PHONE" ];
 
 // when animal is clicked, the secret word should store the value from the string. 
 // update secretWord to hold new random variable. set one at a time, dont do random yet.
@@ -44,6 +45,8 @@ let ltrW = document.getElementById("ltrW");
 let ltrX = document.getElementById("ltrX");
 let ltrY = document.getElementById("ltrY");
 let ltrZ = document.getElementById("ltrZ");
+// Reset Button 
+let reset = document.getElementById("footer");
 
 // Game Categories:
 const movieBtn1 = document.getElementById("btn1");
@@ -58,7 +61,6 @@ const everydayBtn3 = document.getElementById("btn3");
 movieBtn1.addEventListener("click", function (){
     let randomIndex = Math.floor(Math.random() * Math.floor(3))
     secretWord = movArray[randomIndex];
-    alert(movArray[randomIndex]);
     if (secretWord == movArray[randomIndex]){
         mySpan.innerHTML = progress;
     }
@@ -148,7 +150,6 @@ animalBtn2.addEventListener("click", function(){
 // secret word variable 
     randomIndex = Math.floor(Math.random() * Math.floor(2))
     secretWord = aniArray[randomIndex]
-    alert(aniArray[randomIndex]);
     if (secretWord === aniArray[randomIndex]){
         mySpan.innerHTML = progress;
     }
@@ -178,7 +179,6 @@ ltrB.addEventListener("click", function(){
 everydayBtn3.addEventListener("click", function(){
     randomIndex = Math.floor(Math.random() * Math.floor(2))
     secretWord = eveArray[randomIndex]
-    alert(eveArray[randomIndex]);
     if (secretWord === eveArray[randomIndex]){
         mySpan.innerHTML = progress;
     } 
@@ -217,5 +217,15 @@ ltrH.addEventListener("click", function(){
     mySpan.innerHTML = progress;
 });
 
+// Reset/Try Again Button:
+reset.addEventListener("click", function(){
+    location.reload();
+})
 
 
+// Winning Logic: 
+function winner (){
+    if (mySpan == winningConditions){
+        return alert("You won, good job!!")
+    }
+}
