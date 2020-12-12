@@ -2,11 +2,40 @@
 
 ### **Introduction:**
 
-The first project for General Assembly's Software Engineering Immersive Program, students were required to make a browser game. In this folder you will find the three filed required to create the game of "Hangman." Including, HTML, CSS and Javascript code. 
+The first project for General Assembly's Software Engineering Immersive Program, students were required to make a browser game. In this folder you will find the three filed required to create the game of "Hangman." 
 
-[The Complete version of the game:] (https://jasnoornagpal1.github.io/Hangman-Proj-1/)
+---
 
-Hope you've enjoyed playing the game!
+**How to Play the Hangman:**
 
-Please find the screen shots below for a breakdown of the process of building the game:
-<img src href="https://ibb.co/pKPJFrH">
+Hangman is a word guessing game, a player traditionally gets 6-9 guesses to pick the right letter from a list of alphabets that match the word needed to be guessed. The game can have many variations, including everything from themes to categories. In the following game, the player is offered a choice between three categories. 
+
+The categories included are: 
+1. Movies
+2. Animals
+3. Everyday Items
+
+---
+
+You'll find the complete game here: https://jasnoornagpal1.github.io/Hangman-Proj-1/
+
+**Hope you've enjoyed playing the game!**
+
+The technologies used in the creation of this game are: 
+
+1. HTML 
+2. CSS 
+3. JavaScript 
+
+---
+
+Please find the following images of the process of building this browser game:
+
+1. The Finished Product:
+   https://imgur.com/a/Gz01jXd.png
+   
+2. The First Draft of Pseudocode for this Game: 
+   https://imgur.com/a/IaV59Po
+
+3. The Game in an Initiated Stage:
+   https://imgur.com/a/EtUYqwS
