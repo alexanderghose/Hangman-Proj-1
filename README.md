@@ -31,11 +31,13 @@ The technologies used in the creation of this game are:
 
 Please find the following images of the process of building this browser game:
 
-The Finished Product:
-![]"https://imgur.com/a/Gz01jXd.png"
-The First Draft of Pseudocode for this Game: 
-<img src="https://imgur.com/a/IaV59Po">
-The Game in an Initiated Stage:
-<img src="https://imgur.com/a/EtUYqwS">
+1. The Finished Product:
+   https://imgur.com/a/Gz01jXd.png
+   
+2. The First Draft of Pseudocode for this Game: 
+   https://imgur.com/a/IaV59Po
+
+3. The Game in an Initiated Stage:
+   https://imgur.com/a/EtUYqwS
 
 
