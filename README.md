@@ -9,3 +9,5 @@ The first project for General Assembly's Software Engineering Immersive Program,
 Hope you've enjoyed playing the game!
 
 Please find the screen shots below for a breakdown of the process of building the game:
+
+<img src="https://imgur.com/a/Gz01jXd">
