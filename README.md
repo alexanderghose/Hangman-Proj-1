@@ -32,11 +32,18 @@ The technologies used in the creation of this game are:
 Please find the following images of the process of building this browser game:
 
 1. The Finished Product:
+
 <img src="https://i.imgur.com/Tz2joDm.jpg">
+
+---
    
 2. The First Draft of Pseudocode for this Game: 
+
 <img src="https://i.imgur.com/6YGTaYe.jpeg">
 
+---
+
 3. The Game in an Initiated Stage:
+
 <img src="https://i.imgur.com/zro3T92.jpeg">
 
