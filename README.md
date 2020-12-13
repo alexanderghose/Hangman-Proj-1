@@ -33,12 +33,10 @@ Please find the following images of the process of building this browser game:
 
 1. The Finished Product:
 <img src="https://i.imgur.com/Tz2joDm.jpg">
-   https://imgur.com/a/Gz01jXd.png
    
 2. The First Draft of Pseudocode for this Game: 
-   https://imgur.com/a/IaV59Po
+<img src="https://i.imgur.com/6YGTaYe.jpeg">
 
 3. The Game in an Initiated Stage:
-   https://imgur.com/a/EtUYqwS
-
+<img src="https://i.imgur.com/zro3T92.jpeg">
 
